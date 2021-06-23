@@ -22,11 +22,13 @@
           </div>
           
 <div>
+
 <form action="controlador/controladorlogin.php" method="post">
 <input name="fcorreo" type="correo" maxlength="60" palaceholder="nombre@sucorreo.co" required autofocus>
 <input name="fclave" type="password" placeholder="password" required>
-<button name ="fenviar" type ="submit" class="btn btn-success" value="ingresar">ingresar </button>
+<button name ="fenviar" type ="submit" class="btn btn-success" value="ingresar">Ingresar </button>
 </form>
+
 <?php
 @$mensaje = $_GET['mensaje'];
 if (isset($mensaje)){

@@ -2,7 +2,7 @@
   <?php
    session_start();
    if (isset($_SESSION['id'])){
-       echo "Hola Inicio de secion ".$_SESSION['id']." Bienvenido ";
+       echo "Hola Inicio de sesion ".$_SESSION['id']." Bienvenido ";
        echo $_SESSION['rol']."rol";
 ?>
 <html>
